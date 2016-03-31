@@ -3,10 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package jurnal;
+package ketupat;
 
+/**
+ *
+ * @author Praktikan
+ */
 import java.util.Scanner;
-public class ketupat {
+public class Ketupat {
 
     /**
      * @param args the command line arguments
@@ -33,7 +37,7 @@ public class ketupat {
 
                                 if ((j < b) || (j >= (b + 2 * a - 1))){
 
-                                        System.out.print(" ");
+                                        System.out.print("0");
 
                                 }
 
@@ -55,7 +59,7 @@ public class ketupat {
 
                                 if ((j < b) || (j >= (b + 2 * c - 1))){
 
-                                        System.out.print(" ");
+                                        System.out.print("0");
 
                                 }else{
 
